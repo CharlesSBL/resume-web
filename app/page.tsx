@@ -1,7 +1,7 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react"
-import { Badge } from "@/components/ui/badge"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
+import { Badge } from "@/components/ui/badge";
 
 export default function Home() {
   return (
@@ -12,12 +12,17 @@ export default function Home() {
           <div className="content-above-pattern grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px]">
             <div className="flex flex-col justify-center space-y-4">
               <div className="space-y-2">
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">Karol Sobolewski</h1>
-                <p className="text-xl text-muted-foreground">Multidisciplinary Developer & Data Engineer</p>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none">
+                  Karol Sobolewski
+                </h1>
+                <p className="text-xl text-muted-foreground">
+                  Multidisciplinary Developer & Data Engineer
+                </p>
               </div>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                With 4+ years of experience in software development, data engineering, and frontend technologies.
-                Passionate about Rust, Linux, systems programming, and open source.
+                With 4+ years of experience in software development, data
+                engineering, and frontend technologies. Passionate about Rust,
+                Linux, systems programming, and open source.
               </p>
               <div className="flex flex-wrap gap-3">
                 <Badge variant="outline" className="text-sm">
@@ -85,7 +90,7 @@ export default function Home() {
             <div className="flex items-center justify-center">
               <div className="relative aspect-square overflow-hidden rounded-xl bg-gradient-to-b from-teal-300 to-teal-500 shadow-xl">
                 <img
-                  src="/placeholder.svg?height=600&width=600"
+                  src="/me2.jpg?height=600&width=600"
                   alt="Karol Sobolewski"
                   width={600}
                   height={600}
@@ -102,9 +107,12 @@ export default function Home() {
         <div className="container px-4 md:px-6 relative">
           <div className="content-above-pattern flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Featured Projects</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                Featured Projects
+              </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                A selection of my recent work in software development and data engineering
+                A selection of my recent work in software development and data
+                engineering
               </p>
             </div>
           </div>
@@ -113,7 +121,7 @@ export default function Home() {
             <div className="group relative overflow-hidden rounded-lg border bg-background shadow-md transition-all hover:shadow-xl card-hover-effect">
               <div className="aspect-video overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/cli-rust.png?height=400&width=600"
                   alt="Rust CLI Tools"
                   width={600}
                   height={400}
@@ -121,14 +129,19 @@ export default function Home() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold">Rust CLI Tools & System Experiments</h3>
+                <h3 className="text-xl font-bold">
+                  Rust CLI Tools & System Experiments
+                </h3>
                 <p className="mt-2 text-muted-foreground">
-                  Command-line tools and experiments with Rust's performance and memory management.
+                  Command-line tools and experiments with Rust's performance and
+                  memory management.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <Badge className="bg-teal-500 hover:bg-teal-600">Rust</Badge>
                   <Badge className="bg-teal-500 hover:bg-teal-600">CLI</Badge>
-                  <Badge className="bg-teal-500 hover:bg-teal-600">Systems Programming</Badge>
+                  <Badge className="bg-teal-500 hover:bg-teal-600">
+                    Systems Programming
+                  </Badge>
                 </div>
                 <div className="mt-6">
                   <Button asChild variant="outline" size="sm">
@@ -144,7 +157,7 @@ export default function Home() {
             <div className="group relative overflow-hidden rounded-lg border bg-background shadow-md transition-all hover:shadow-xl card-hover-effect">
               <div className="aspect-video overflow-hidden">
                 <img
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/data-dashboard.png?height=400&width=600"
                   alt="Personal Data Dashboard"
                   width={600}
                   height={400}
@@ -154,12 +167,17 @@ export default function Home() {
               <div className="p-6">
                 <h3 className="text-xl font-bold">Personal Data Dashboard</h3>
                 <p className="mt-2 text-muted-foreground">
-                  React + Python backend dashboard that scrapes and visualizes structured data for analysis.
+                  React + Python backend dashboard that scrapes and visualizes
+                  structured data for analysis.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <Badge className="bg-teal-500 hover:bg-teal-600">React</Badge>
-                  <Badge className="bg-teal-500 hover:bg-teal-600">Python</Badge>
-                  <Badge className="bg-teal-500 hover:bg-teal-600">Data Visualization</Badge>
+                  <Badge className="bg-teal-500 hover:bg-teal-600">
+                    Python
+                  </Badge>
+                  <Badge className="bg-teal-500 hover:bg-teal-600">
+                    Data Visualization
+                  </Badge>
                 </div>
                 <div className="mt-6">
                   <Button asChild variant="outline" size="sm">
@@ -186,7 +204,9 @@ export default function Home() {
         <div className="container px-4 md:px-6 relative">
           <div className="content-above-pattern flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Skills Overview</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                Skills Overview
+              </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 My technical expertise and professional capabilities
               </p>
@@ -195,7 +215,9 @@ export default function Home() {
           <div className="content-above-pattern mx-auto grid max-w-5xl grid-cols-1 gap-8 py-12 md:grid-cols-3">
             {/* Technical Skills */}
             <div className="rounded-lg border bg-background p-6 shadow-md card-hover-effect">
-              <h3 className="text-xl font-bold mb-4 text-teal-600 dark:text-teal-400">Technical Skills</h3>
+              <h3 className="text-xl font-bold mb-4 text-teal-600 dark:text-teal-400">
+                Technical Skills
+              </h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <Badge variant="outline" className="border-teal-500">
@@ -242,7 +264,9 @@ export default function Home() {
 
             {/* Data Engineering */}
             <div className="rounded-lg border bg-background p-6 shadow-md card-hover-effect">
-              <h3 className="text-xl font-bold mb-4 text-teal-600 dark:text-teal-400">Data Engineering</h3>
+              <h3 className="text-xl font-bold mb-4 text-teal-600 dark:text-teal-400">
+                Data Engineering
+              </h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <Badge variant="outline" className="border-teal-500">
@@ -277,7 +301,9 @@ export default function Home() {
 
             {/* DevOps & Tools */}
             <div className="rounded-lg border bg-background p-6 shadow-md card-hover-effect">
-              <h3 className="text-xl font-bold mb-4 text-teal-600 dark:text-teal-400">DevOps & Tools</h3>
+              <h3 className="text-xl font-bold mb-4 text-teal-600 dark:text-teal-400">
+                DevOps & Tools
+              </h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <Badge variant="outline" className="border-teal-500">
@@ -331,13 +357,20 @@ export default function Home() {
         <div className="container px-4 md:px-6 relative">
           <div className="content-above-pattern flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Let's Work Together</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                Let's Work Together
+              </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Interested in collaborating on a project or discussing opportunities?
+                Interested in collaborating on a project or discussing
+                opportunities?
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
-              <Button asChild size="lg" className="bg-teal-600 hover:bg-teal-700">
+              <Button
+                asChild
+                size="lg"
+                className="bg-teal-600 hover:bg-teal-700"
+              >
                 <Link href="/contact">
                   Contact Me <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -347,5 +380,5 @@ export default function Home() {
         </div>
       </section>
     </div>
-  )
+  );
 }
