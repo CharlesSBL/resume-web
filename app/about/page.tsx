@@ -113,7 +113,7 @@ export default function AboutPage() {
                         BelBiGroup, Belarus
                       </span>
                       <span className="text-sm text-muted-foreground">
-                        2023 – 2024
+                        2024 may – 2024 september
                       </span>
                     </div>
                   </div>
@@ -150,7 +150,7 @@ export default function AboutPage() {
                         itoverflow, Belarus
                       </span>
                       <span className="text-sm text-muted-foreground">
-                        2022
+                        2022 - 2023
                       </span>
                     </div>
                   </div>
@@ -222,7 +222,7 @@ export default function AboutPage() {
                         Private Nursing Home / Medicinae Pro Omnibus Foundation
                       </span>
                       <span className="text-sm text-muted-foreground">
-                        2019 – 2021
+                        2023 – 2024
                       </span>
                     </div>
                   </div>
