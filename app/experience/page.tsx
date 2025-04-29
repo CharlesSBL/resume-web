@@ -20,7 +20,7 @@ export default function ExperiencePage() {
                   <CardTitle className="text-2xl">ETL & Data Engineering Intern</CardTitle>
                   <CardDescription className="text-lg">BelBiGroup, Belarus</CardDescription>
                 </div>
-                <Badge className="w-fit">2023 – 2024</Badge>
+                <Badge className="w-fit">2024 may – 2024 september</Badge>
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -62,7 +62,7 @@ export default function ExperiencePage() {
                   <CardTitle className="text-2xl">Java Backend Intern</CardTitle>
                   <CardDescription className="text-lg">itoverflow, Belarus</CardDescription>
                 </div>
-                <Badge className="w-fit">2022</Badge>
+                <Badge className="w-fit">2022-2023</Badge>
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -137,7 +137,7 @@ export default function ExperiencePage() {
                     Private Nursing Home / Medicinae Pro Omnibus Foundation, Warsaw, Poland
                   </CardDescription>
                 </div>
-                <Badge className="w-fit">2019 – 2021</Badge>
+                <Badge className="w-fit">2023 – 2024</Badge>
               </div>
             </CardHeader>
             <CardContent className="space-y-4">
