@@ -352,10 +352,29 @@ export default function AboutPage() {
               <div className="flex items-center justify-between">
                 <h3 className="text-xl font-semibold">English</h3>
                 <Badge className="bg-teal-500 hover:bg-teal-600">
-                  Professional Working Proficiency
+                  C1
                 </Badge>
               </div>
             </div>
+
+            <div className="rounded-lg border bg-background p-6 shadow-md card-hover-effect">
+              <div className="flex items-center justify-between">
+                <h3 className="text-xl font-semibold">Russian</h3>
+                <Badge className="bg-teal-500 hover:bg-teal-600">
+                  C2
+                </Badge>
+              </div>
+            </div>
+
+            <div className="rounded-lg border bg-background p-6 shadow-md card-hover-effect">
+              <div className="flex items-center justify-between">
+                <h3 className="text-xl font-semibold">Ukrainian</h3>
+                <Badge className="bg-teal-500 hover:bg-teal-600">
+                  C2
+                </Badge>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
