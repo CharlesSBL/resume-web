@@ -24,9 +24,9 @@ export default function AboutPage() {
               Professional Summary
             </h2>
             <p className="text-muted-foreground leading-relaxed">
-              I'm a multidisciplinary developer with 4+ years of hands-on
+              I'm a multidisciplinary developer with  hands-on
               experience in software development, data engineering, and frontend
-              technologies. I have a strong foundation in backend systems, ETL
+              technologies. Backend systems, ETL
               pipelines, containerization, and modern frontend frameworks.
             </p>
             <p className="text-muted-foreground leading-relaxed">

@@ -20,7 +20,7 @@ export default function Home() {
                 </p>
               </div>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                With 4+ years of experience in software development, data
+                With experience in software development, data
                 engineering, and frontend technologies. Passionate about Rust,
                 Linux, systems programming, and open source.
               </p>
