@@ -67,7 +67,7 @@ export default function AboutPage() {
                   Contact Me <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button
+              {/* <Button
                 variant="outline"
                 asChild
                 className="border-teal-500 text-teal-600 hover:bg-teal-50 dark:text-teal-400 dark:hover:bg-teal-950/30"
@@ -75,7 +75,7 @@ export default function AboutPage() {
                 <Link href="/resume.pdf" target="_blank">
                   Download CV <Download className="ml-2 h-4 w-4" />
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
           <div className="flex items-center justify-center">
