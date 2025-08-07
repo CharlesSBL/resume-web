@@ -47,7 +47,7 @@ export default function Home() {
                   Linux
                 </Badge>
               </div>
-              <div className="flex flex-col gap-2 min-[400px]:flex-row">
+              {/* <div className="flex flex-col gap-2 min-[400px]:flex-row">
                 <Button asChild>
                   <Link href="/contact">
                     Get in touch <ArrowRight className="ml-2 h-4 w-4" />
@@ -57,7 +57,7 @@ export default function Home() {
                   <Link href="/resume.pdf" target="_blank">
                     Download CV <Download className="ml-2 h-4 w-4" />
                   </Link>
-                </Button>
+                </Button> */}
               </div>
               <div className="flex gap-4 mt-4">
                 <Link
