@@ -24,7 +24,7 @@ const experienceData = [
   {
     title: "ETL & Data Engineering Intern",
     company: "BelBiGroup",
-    details: "Warsaw, Mazowieckie, Poland · Internship · Remote",
+    details: "Warsaw, Mazowieckie, Poland · Internship",
     date: "May 2024 - Sep 2024 · 5 mos",
     responsibilities: [
       "Designed and developed automated ETL pipelines using Apache Airflow and Python, significantly reducing manual data processing efforts.",
@@ -39,7 +39,7 @@ const experienceData = [
   {
     title: "Java Software Developer Intern",
     company: "IT OVERONE",
-    details: "Minsk, Belarus · Internship · Remote",
+    details: "Minsk, Belarus · Internship",
     date: "Sep 2023 - Dec 2023 · 4 mos",
     responsibilities: [
       "Developed and maintained REST APIs for a commercial application using Java and Spring Boot within a microservices architecture.",
