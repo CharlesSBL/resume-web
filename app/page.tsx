@@ -57,8 +57,8 @@ export default function Home() {
                   <Link href="/resume.pdf" target="_blank">
                     Download CV <Download className="ml-2 h-4 w-4" />
                   </Link>
-                </Button> */}
-              </div>
+                </Button>
+              </div> */}
               <div className="flex gap-4 mt-4">
                 <Link
                   href="https://github.com/CharlesSBL"
